@@ -9,3 +9,13 @@ Di Dalam Nya Kita Pakai
 - [Actix](https://actix.rs/) Web Framework In Rust
 
 Ya Cuma 2 itu aja si.
+
+## How To Run?
+
+- Clone Lah
+- ```cargo build```
+- ```cargo run main.rs```
+### Docker?
+Nanti Duls
+
+Intinya Ini Di Port 9090, Ganti Aja Di `main.rs` kalau gasuka angka `9090`
