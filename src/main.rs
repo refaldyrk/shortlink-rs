@@ -17,6 +17,7 @@ async fn main() -> std::io::Result<()> {
                 cache: Arc::clone(&cache)
             }))
             .service(service::service::add_links)
+            .service(service::service::get_links)
             .route("/", web::get().to(health_check))
     })
         .bind(("127.0.0.1", 9090))?
